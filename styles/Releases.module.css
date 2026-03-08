@@ -1,0 +1,91 @@
+.releases {
+  padding: 3rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.releases h1 {
+  text-align: center;
+  color: #ffd700;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.intro {
+  text-align: center;
+  color: #cccccc;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.list {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.release {
+  background: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.release:hover {
+  border-color: #ffd700;
+  transform: translateX(5px);
+}
+
+.cover {
+  width: 200px;
+  height: 200px;
+  background: #0a0a0a;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder {
+  font-size: 3rem;
+}
+
+.details h3 {
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.artist {
+  color: #999999;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.date {
+  color: #666666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #cccccc;
+  line-height: 1.6;
+}
